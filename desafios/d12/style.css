@@ -1,0 +1,58 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 250px;
+    /* font-family: var(); */
+}
+/* Parei aqui antes de ir comer, ainda no header */
+
+header > h1 { 
+    padding: 50px;
+    font-size: 5em;
+}
+header > p {
+    color: white;
+    padding-bottom: 10px;
+}
+
+header > p > a {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+
+}
+
+footer > p {
+    padding-top: 10px;
+}
+
+footer > p > a {
+    color: white;
+}

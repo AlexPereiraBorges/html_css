@@ -1,3 +1,4 @@
+@charset "utf-8";
 
 * {
     margin: 0px;
@@ -10,49 +11,65 @@
     --fonte3: 'Sriracha', cursive;
 }
 
-a {
-    text-decoration:none;
-}
-
-a:hover {
-    text-decoration: underline;
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
-    height: 250px;
     /* font-family: var(); */
 }
-/* Parei aqui antes de ir comer, ainda no header */
 
 header > h1 { 
     padding: 50px;
-    font-size: 5em;
-}
-header > p {
-    color: white;
-    padding-bottom: 10px;
+    font-variant: small-caps;
 }
 
-header > p > a {
+header > p {
+    padding-bottom: 50px;
+}
+
+
+header a, footer a {
     color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagen {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagen > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
 }
 
 footer {
     background-color: black;
-    color: white;
     height: 40px;
     width: 100%;
     text-align: center;
+    padding: 10px;
 
-}
-
-footer > p {
-    padding-top: 10px;
-}
-
-footer > p > a {
-    color: white;
 }

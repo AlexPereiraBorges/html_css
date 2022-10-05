@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <STyle>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        
+
+    </STyle>
+</head>
+<body>
+    <h1>mesclagem de celulas</h1>
+    <table>
+        <tr>
+            <td rowspan="4">A</td><!-- rowspan = vertical "valor " -->
+            <td colspan ="3">B</td><!--  colspna = horizontal "valor " -->
+            <!-- <td>C</td> -->
+        </tr>
+        <tr>
+            
+            <td>E</td>
+            <td rowspan="3">F</td>
+        </tr>
+        <tr>
+            
+            <td>H</td>
+            
+        </tr>
+        <tr>
+            
+            <td>k</td>
+            
+        </tr>
+        <tr>
+            <td colspan="3">x</td>
+            <!-- <td>x</td>
+            <td>x</td> -->
+        </tr>
+    </table>
+</body>
+</html>

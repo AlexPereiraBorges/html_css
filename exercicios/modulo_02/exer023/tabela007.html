@@ -29,12 +29,6 @@
             padding: 10px;
             border: 3px solid black;
         }
-        tbody {
-
-        }
-        tfoot {
-
-        }
     </style>
 </head>
 <body>
@@ -42,11 +36,12 @@
         <caption>Notas</caption>
         <thead class="cor">
             <tr>
-                <th rowspan="2">Area</th>
-                <th rowspan="3">Disciplina</th>
-                <th rowspan="2">Notas</th>
-                <th rowspan="2">Media</th>
+                <th rowspan="2" scope="col">Area</th>
+                <th rowspan="3" scope="col">Disciplina</th>
+                <th rowspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Media</th>
             </tr>
+            
         </thead>
         <tbody>
 
@@ -99,10 +94,6 @@
             </tr>
             
         </tbody>
-        <tfoot>
-
-        </tfoot>
     </table>
-
 </body>
 </html>

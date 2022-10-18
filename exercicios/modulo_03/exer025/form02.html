@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1> Teste de Formularios</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="usuario1">Nome</label>
+            <input type="text" name="Nome" id="usuario1" required maxlength="10" size="10" placeholder="Seu nome">
+            <!--size e o tamanho em letras-->
+        </p>
+        <p>
+            <label for="senha1">senha</label>
+            <input type="password" name="senha" id="senha1" required minlength="4" maxlength="10" size="10" placeholder="Sua Senha"> <!--required para obrigar vampos, minlength para minimo de letras, maxlength para total de letras --> 
+            <!--palceholder para exibir um txt de dica-->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

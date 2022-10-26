@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        form {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <form action="formulario.php" method="post">
+        <fieldset>
+            <legend>Soma</legend>
+            <p>
+                <label for="in1">Numero: </label>
+                <input type="number" name="in1" id="n1" min="0" max="20" oninput = "is.innerHTML = Number(in1.value) + Number(in2.value)">
+                <br>
+
+            </p>
+            
+            <p>
+                <label for="in2">Outro numero: </label>
+                <input type="number" name="in2" id="n2" min="0" max="20" oninput = "is.innerHTML = Number(in1.value) + Number(in2.value)">
+                <br>
+                
+            </p>
+            
+            <p>
+                <label for="is">Soma: </label>
+                <output type="number" name="is" id="soma">0</output>
+            </p>
+            
+
+        </fieldset>
+    </form>
+</body>
+</html>

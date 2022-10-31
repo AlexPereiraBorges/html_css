@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+/*estilo para impresora*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 1.0em;
+    line-height: 1.5em;
+
+}
+
+menu {
+    display: none;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+}
+
+article {
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+}
+
+article::after {
+    content: 'Baixado do site https://';
+}

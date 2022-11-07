@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+header {
+    background-color: aqua;
+    height: 100px;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    padding-top: 50px;
+    font-size: 1.3em;
+    
+}
